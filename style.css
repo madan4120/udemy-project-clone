@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gabarito',sans-serif;
+}
+.navbar{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid black 1px;
+  align-items: center;
+  gap: 10px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+.navbars1Title{
+  color: #A435F0;
+}
+.navbarr__s2{
+
+ padding: 10px;
+ border: solid black 1px;
+ border-radius: 30px;
+ width: 60%;
+display: flex;
+gap: 20px;
+align-items: center;
+
+}
+.navbarr__s2 input{
+  border: none;
+  width: 100%;
+  font-size: 15px;
+  background-color: transparent;
+}
+.saleimg{
+  position: relative;
+}
+.saleimageoffer{
+  width: 350px;
+  border: solid black 2px;
+  background-color: white;
+  padding: 20px;
+  position: absolute;
+  top: 30px;
+  left: 120px;
+ 
+}
+.navbarr__s2 input:focus{
+ outline: none;
+}
+.navbarr__s3{
+display: flex;
+gap: 15px;
+align-items: center;
+}
+/*my Learning popup  */
+.myLearning{
+  position: relative;
+  cursor: pointer;
+}
+.myLearning:hover .myLearningpopup{
+  display: flex;
+
+}
+
+.myLearningpopup{
+  position: absolute;
+  background-color: white;
+  border: solid black 1px;
+  width: 100px;
+  top: 150%;
+  padding: 20px;
+  right: 0px;
+  display: none;
+}
+
+
+.categories{
+display: flex;
+justify-content: space-around;
+padding: 10px;
+border-bottom: solid black 1px;
+}
+.categories p{
+  background-color: #A435F0;
+  border-radius: 30px;
+  border: solid #A435F0 1px;
+  color: white;
+  padding: 10px;
+}
+.saleimg img{ 
+  width: 100%;
+}
+.recommended{
+padding: 10px;
+
+}
+.recommendedcontainer{
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+flex-wrap: wrap;
+}
+.coursecard{
+  flex-basis: 250px;
+}
+.coursecard img{
+  height: 50%;
+width: 100%;
+}
+.topics{
+  padding: 10px;
+}
+.topics__container{
+display: flex;
+margin-top: 10px;
+gap: 10px;
+flex-wrap: wrap;
+}
+.topics__container p{
+  border: solid grey 2px;
+  padding: 10px;
+  flex-grow: 1;
+  flex-basis: 25%;
+}
+.popular{
+  padding: 10px;
+  
+}
+.popular__Title{
+  margin-top: 10px;
+}
+.popular__subtitle{
+  margin-top: 10px;
+}
+.popular__container{
+ margin-top: 10px;
+ display: flex;
+ flex-wrap: wrap;
+ flex-basis: 25%;
+ justify-content: space-between;
+}
+.footer{
+  padding: 30px;
+  background-color: black;
+  color: white;
+  display: flex;
+ 
+}
+.footer1{
+  padding-left: 50px;
+   gap: 10px;
+}
+.footer2{
+  
+  padding-left: 50px;
+  justify-content: space-between;
+}
+.footer3{
+  position: relative;
+  margin-top: 120px;
+  right: 300px;
+}
